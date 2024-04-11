@@ -5,7 +5,8 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://mikasaak.github.io',
+	base: '/myblog',
 	integrations: [mdx(), sitemap()],
 	server:{
 		port: 8888
